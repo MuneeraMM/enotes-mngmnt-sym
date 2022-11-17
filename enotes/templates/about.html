@@ -1,0 +1,49 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>This is Simple Enotes Management System . using Python Django, HTML, CSS, Bootstrp and sqlite.</p>
+  <p>Easy to use: E-Notes Project is very easy to use.</p>
+</div>
+<br><br>
+<h2 style="text-align:center">Teams</h2>
+<div class="row offset-3">
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/women2.png' %}" alt="abcd" style="border-radius: 50%;">
+
+      <div class="container">
+        <h2>Abcde</h2>
+        <p class="title">Developer</p>
+        <p>Greeked text is used in typography to evaluate a certain typeface's appropriateness, overall style or type color..</p>
+        <p>abc@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/women2.png' %}" alt="wxyz" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Wxyz</h2>
+        <p class="title">Software Developer</p>
+        <p>Greeked text is used in typography to evaluate a certain typeface's appropriateness, overall style or type color..</p>
+        <p>xyz@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
